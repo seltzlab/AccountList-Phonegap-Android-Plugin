@@ -25,9 +25,9 @@ Using the plugin
         },
         function (result) {
             console.log(result.length);
-    		for (i in result) {
-    		    console.log(result[i]);
-    		}
+            for (i in result) {
+                console.log(result[i]);
+            }
         },
         function (error) {
             console.log(error);
