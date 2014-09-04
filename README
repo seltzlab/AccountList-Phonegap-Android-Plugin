@@ -22,11 +22,12 @@ Using the plugin
     window.plugins.AccountList.get(
         {
             type: 'account type' // if not specified get all accounts
-        }, 
+        },
         function (result) {
-            console.log(res.length);
-    		for (i in res)
-    		    console.log(res[i]);
+            console.log(result.length);
+    		for (i in result) {
+    		    console.log(result[i]);
+    		}
         },
         function (error) {
             console.log(error);
